@@ -14,6 +14,8 @@ I was planning on creating this tutorial using the Palmer Penguins, but after th
 
 ## How to Run Locally
 
+Please make sure you have Miniconda or Anaconda installed! The program is also best run using Python 3.10.
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/allison-diebol/streamlit-data-viz-tutorial
@@ -25,7 +27,7 @@ cd streamlit-data-viz-tutorial
 conda env create -f environment.yml
 conda activate fashion-mnist-dashboard
 ```
-
+The tutorial uses TensorFlow/Keras to gain access to the dataset. There are several specific dependencies that the environment file resolves! It may take a little bit for the new environment to be created.
 
 ### 3. Run the app
 ```bash
