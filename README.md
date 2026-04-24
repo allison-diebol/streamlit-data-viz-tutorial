@@ -10,6 +10,8 @@ Most Streamlit tutorials either:
 
 This tutorial bridges the gap between the two. It is aimed at students and practitioners who already know some Python and want to build interactive, shareable visualizations without learning a full web framework. 
 
+I was planning on creating this tutorial using the Palmer Penguins, but after the pre-class that used its own Streamlit dashboard for the dataset, I decided to pivot to Fashion-MNIST.
+
 ## How to Run Locally
 
 ### 1. Clone the repository
