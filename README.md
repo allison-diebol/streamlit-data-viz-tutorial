@@ -1,6 +1,6 @@
 # Interactive Data Visualization with Streamlit
 
-### A hands-on tutorial using the Palmer Penguins dataset
+### A hands-on tutorial using the Fashion-MNIST dataset
 
 This repository contains a step-by-step tutorial on building **interactive data visualizations** using [Streamlit](https://streamlit.io/), a Python library that turns scripts into shareable web apps with minimal overhead.
 
@@ -8,7 +8,7 @@ Most Streamlit tutorials either:
 - Teach widgets in isolation, or
 - Show a finished dashboard without explaining the *design decisions* behind it
 
-This tutorial bridges the gap between the two: it teaches why you would pair a widget with a particular chart type and how to implement it. It is aimed at students and practitioners who already know some Python and want to build interactive, shareable visualizations without learning a full web framework. 
+This tutorial bridges the gap between the two. It is aimed at students and practitioners who already know some Python and want to build interactive, shareable visualizations without learning a full web framework. 
 
 ## How to Run Locally
 
@@ -18,20 +18,31 @@ git clone https://github.com/allison-diebol/streamlit-data-viz-tutorial
 cd streamlit-data-viz-tutorial
 ```
 
-### 2. Install dependencies
+### 2. Create & Activate the conda environment
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate fashion-mnist-dashboard
 ```
+
 
 ### 3. Run the app
 ```bash
-streamlit run app.py
+streamlit run tutorial.py
 ```
 
-The app will open automatically at `http://localhost:8501`
+The app will open automatically in a local URL (usually `http://localhost:8501`)
+
+## Repository Files
+```
+├── tutorial.py                  # main Streamlit file
+├── environment.yml              # conda environment spec
+├── tutorial_subset.pdf          # PDFs of part of the tutorial in case you are unable to locally run it
+├── writeup.pdf                  # written report
+└── README.md                    # you are here!
+```
 
 ## Acknowledgements
-- Palmer Penguins dataset: Gorman KB, Williams TD, Fraser WR (2014).
+Dataset: Fashion-MNIST by Zalando Research, released under MIT licence.
 
 ## Author
 Built as an Honors Option project for CMSE 402: Data Visualization Principles and Techniques
