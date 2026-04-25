@@ -39,7 +39,7 @@ st.markdown("""
     This tutorial is focused on **Streamlit** and its capabilities rather than the dataset. Fashion-MNIST is simply a
     convenient, interesting dataset to make the widgets feel meaningful. I am sure that Streamlit has other capabilities not encapsulated in this tutorial! When in doubt, I recommend referencing the [Streamlit Documentation](%s)."""%url)
 
-st.info("I wanted to create a tutorial for Streamlit as its interactivity allows the audience to explore the visuals on their own terms. Adding in widgets like expanders can help make the product more author-driven or audience-driven depending on what the viewer prefers. I ultimatley think that Streamlit is a simple tool to create narrative digital stories. This tutorial also helps to merge both basic and genuine implementations of Streamlit's capabilities.")
+st.info("I wanted to create a tutorial for Streamlit as its interactivity allows the audience to explore the visuals on their own terms. Adding in widgets like expanders can help make the product more author-driven or audience-driven depending on what the viewer prefers. I ultimately think that Streamlit is a simple tool to create narrative digital stories. This tutorial also helps to merge both basic and genuine implementations of Streamlit's capabilities.")
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
@@ -692,7 +692,7 @@ if submitted:
         """, language="python")
 
     st.info(""" As Cairo says in his chapter on uncertainty, if possible, people should 'work to find a way to display it [uncertainty] on the visualization itself in a manner that doesn't clutter it'. """
-    "Confusion matrices are great in displaying the uncertainty and failures in model performance, ultimatley enhacing transparency and truthfulness.")
+    "Confusion matrices are great in displaying the uncertainty and failures in model performance, ultimately enhancing transparency and truthfulness.")
 
     st.divider()
 
